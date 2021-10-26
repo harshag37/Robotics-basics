@@ -15,7 +15,7 @@ Following are the criteria for checking the password:
 Example
 </br>If the following password is given as input to the program:
 </br>ABd1234@1
-Then, the output of the program should be:
+</br>Then, the output of the program should be:
 </br>VALID
 </br>Otherwise print INVALID.
 </p>
@@ -31,7 +31,7 @@ Then, the output of the program should be:
 </br>DOWN 3
 </br>LEFT 3
 </br>RIGHT 2
-The numbers after the direction are steps. Please write a program to compute the distance from current position after a sequence of movement and original point. If the distance is a float, then just print the nearest integer.
+</br>The numbers after the direction are steps. Please write a program to compute the distance from current position after a sequence of movement and original point. If the distance is a float, then just print the nearest integer.
 
 
 Example:
