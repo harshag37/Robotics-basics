@@ -3,12 +3,12 @@
 <p>
   A website requires the users to input username and password to register. Write a program to check the validity of password input by users.
 Following are the criteria for checking the password:
-1. At least 1 letter between [a-z]
-2. At least 1 number between [0-9]
-1. At least 1 letter between [A-Z]
-3. At least 1 character from [$#@]
-4. Minimum length of transaction password: 6
-5. Maximum length of transaction password: 12
+</br>1. At least 1 letter between [a-z]
+</br>2. At least 1 number between [0-9]
+</br>1. At least 1 letter between [A-Z]
+</br>3. At least 1 character from [$#@]
+</br>4. Minimum length of transaction password: 6
+</br>5. Maximum length of transaction password: 12
 
 
 
