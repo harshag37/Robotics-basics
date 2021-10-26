@@ -13,8 +13,8 @@ Your program should accept a sequence of comma separated passwords and will chec
 
 
 Example
-</>If the following passwords are given as input to the program:
-</>ABd1234@1,a F1#,2w3E*,2We3345
+</br>If the following passwords are given as input to the program:
+</br>ABd1234@1,a F1#,2w3E*,2We3345
 Then, the output of the program should be:
 </>ABd1234@1
 </p>
