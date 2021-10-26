@@ -9,14 +9,15 @@ Following are the criteria for checking the password:
 3. At least 1 character from [$#@]
 4. Minimum length of transaction password: 6
 5. Maximum length of transaction password: 12
-Your program should accept a sequence of comma separated passwords and will check them according to the above criteria. Passwords that match the criteria are to be printed, each separated by a comma.
+
 
 
 Example
-</br>If the following passwords are given as input to the program:
-</br>ABd1234@1,a F1#,2w3E*,2We3345
-Then, the output of the program should be:
+</br>If the following password is given as input to the program:
 </br>ABd1234@1
+Then, the output of the program should be:
+</br>VALID
+</br>Otherwise print INVALID.
 </p>
 
 
