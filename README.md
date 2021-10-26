@@ -16,7 +16,7 @@ Example
 </br>If the following passwords are given as input to the program:
 </br>ABd1234@1,a F1#,2w3E*,2We3345
 Then, the output of the program should be:
-</>ABd1234@1
+</br>ABd1234@1
 </p>
 
 
@@ -26,23 +26,23 @@ Then, the output of the program should be:
 
 <p>
   A robot moves in a plane starting from the original point (0,0). The robot can move toward UP, DOWN, LEFT and RIGHT with a given steps. The trace of robot movement is shown as the following:
-</>UP 5
-</>DOWN 3
-</>LEFT 3
-</>RIGHT 2
+</br>UP 5
+</br>DOWN 3
+</br>LEFT 3
+</br>RIGHT 2
 The numbers after the direction are steps. Please write a program to compute the distance from current position after a sequence of movement and original point. If the distance is a float, then just print the nearest integer.
 
 
 Example:
 
 Input:
-</>UP 5
-</>DOWN 3
-</>LEFT 3
-</>RIGHT 2
+</br>UP 5
+</br>DOWN 3
+</br>LEFT 3
+</br>RIGHT 2
 
-</>Output:
-</>2
+</br>Output:
+</br>2
   </p>
   </br>
   #Question_3
@@ -60,12 +60,12 @@ Constraints. 1≤𝑑≤105.1≤𝑚≤400.1≤𝑛≤300.0<stop1 <stop2 <···
 
 Sample 1.
 Input:
-</>950
-</>400
-</>4
-</>200 375 550 750
-</>Output:
-</>2
+</br>950
+</br>400
+</br>4
+</br>200 375 550 750
+</br>Output:
+</br>2
 
 HINT:
 The distance between the cities is 950, the car can travel at most 400 miles on a full tank. It suffices to make two refills: at points 375 and 750. This is the minimum number of refills as with a single refill one would only be able to travel at most 800 miles.
@@ -75,12 +75,12 @@ The distance between the cities is 950, the car can travel at most 400 miles on 
 
 Sample 2.
 Input:
-</>10
-</>3
-</>4
-</>1 2 5 9
-</>Output:
-</>-1
+</br>10
+</br>3
+</br>4
+</br>1 2 5 9
+</br>Output:
+</br>-1
 
 
 HINT:
