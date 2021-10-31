@@ -20,7 +20,6 @@ if len(password) >=6 and len(password) <=12:
             num_value_count =+ 1
          if i in spl_char: 
             spl_char_count += 1
-
 if upper_letter_count !=0 and lower_letter_count!=0 and num_value_count!=0 and spl_char_count !=0:
     print ("VALID")
 else:
