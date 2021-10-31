@@ -1,6 +1,6 @@
 class refills:
     def __init__(self, d, m, n):
-        self.i = 0
+        
         self.distance = d
         self.maxdist = m
         self.numofstop = n
@@ -9,17 +9,22 @@ class refills:
         self.stops = []
 
     def inputs(self):
-        for x in range(0, self.numofstop):
-            d = int(input())
-            self.stops.append(d)
+            d1, d2, d3 ,d4 = input().split()
+            self.stops = [int(d1), int(d2), int(d3), int(d4)]
 
     def findrefill(self):
+        
+        for i in range(0, self.numofstop):
+            if self.maxdist<(self.stops[i]-self.stops[i-1]):
+                self.refill = -1
+                print(self.refill)
+                exit()
 
-        for self.i in (0, self.numofstop):
-            if ((self.maxdist - self.stops[self.i])<(self.stops[self.i+1]-self.stops[self.i])):
+            if self.sum>self.maxdist:
+                self.sum = self.stops[i-1]
                 self.refill += 1
-            else:
-                self.refill = self.refill
+
+            self.sum = self.sum + self.stops[i]
 
         print(self.refill)
 
@@ -27,12 +32,6 @@ a = int(input())
 b = int(input())
 c = int(input())
 
-
-
 car = refills(a, b, c)
 refills.inputs(car)
 refills.findrefill(car)
-
-
-
-
