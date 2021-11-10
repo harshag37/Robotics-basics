@@ -8,6 +8,5 @@ for i in range(3):
     while (inn>= curr[i]):
         ans = ans+1
         inn = inn - curr[i]
-
         
 print(ans)
