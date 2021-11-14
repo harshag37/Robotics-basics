@@ -6,7 +6,8 @@ for p in range(2, n1):
         if n2%p == 0:
             t+=1
             print(p)
-            break
+            
+    
 if t == 0:
     print("1")
          
